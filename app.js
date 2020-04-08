@@ -13,12 +13,9 @@ const onload = () => {
         $playerCounter = 0;
         moves.x = [];
         moves.o = [];
-        // console.log(moves)
 
         $('.box').text("");
         $('#result').text("");
-
-        // console.log(resetBoard)
     }
 
     const isThereAWinner = (player) => {
@@ -98,7 +95,6 @@ const onload = () => {
             if ($playerCounter % 2 === 0) {
                 event.target.innerHTML = $player1;
                 $playerCounter++;
-                // console.log(event.target)
                 moves["x"].push($(event.target).index())
                 isEndOfGame = isThereAWinner($player1);
                 
