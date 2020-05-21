@@ -116,7 +116,6 @@ const onload = () => {
         resetBoard();
         buttonsClickHandler();
         disableButtons(false);
-
     })
 }
 $(onload);
