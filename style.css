@@ -47,6 +47,7 @@ section {
 }
 button {
     background-color: #c3eec3;
+    outline: none;
 }
 div {
     height: 40px;
